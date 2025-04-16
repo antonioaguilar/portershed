@@ -1,0 +1,24 @@
+{
+  "name": "vehicle-tracking",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 8080 --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json"
+  },
+  "devDependencies": {
+    "@nats-io/nats-core": "^3.0.2",
+    "@sveltejs/vite-plugin-svelte": "^5.0.3",
+    "@tsconfig/svelte": "^5.0.4",
+    "@types/leaflet": "^1.9.17",
+    "leaflet": "^1.9.4",
+    "svelte": "^5.27.0",
+    "svelte-check": "^4.1.6",
+    "svelte-leafletjs": "^2.0.0",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.0"
+  }
+}
