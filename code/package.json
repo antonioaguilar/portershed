@@ -1,0 +1,26 @@
+{
+  "name": "nats-samples",
+  "version": "1.0.0",
+  "main": ".",
+  "type": "module",
+  "scripts": {
+    "api": "tsx api.ts",
+    "service": "tsx service.ts",
+    "replay": "tsx replay.ts",
+    "publish": "tsx publish.ts",
+    "setup": "tsx setup.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@nats-io/jetstream": "^3.0.2",
+    "@nats-io/transport-node": "^3.0.2",
+    "@types/lodash": "^4.17.16",
+    "@types/node": "^22.15.12",
+    "cbor-x": "^1.6.0",
+    "lodash": "^4.17.21",
+    "tsx": "^4.19.4"
+  }
+}
